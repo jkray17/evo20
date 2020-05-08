@@ -1,0 +1,13 @@
+sushi-rzn.ru/dev/manager
+admin
+jv5dD6k9G4j9
+
+http://5.63.158.159/phpmyadmin/
+sushi-r1
+8V6g9S6n
+
+ftp://5.63.158.159
+sushi-dev
+0I9e7H9s
+
+https://drive.google.com/file/d/1nHg5W5DKf_ney-OLDRmLZjdb6dVp1Rz9/view?usp=sharing

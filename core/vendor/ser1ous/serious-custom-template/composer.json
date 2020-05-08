@@ -1,0 +1,29 @@
+{
+  "name": "ser1ous/evocms-serious-custom-template",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Pashkevich",
+      "email": "sertious2008.wortk3@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "EvolutionCMS\\SeriousCustom\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EvolutionCMS\\SeriousCustom\\SeriousCustomTemplateServiceProvider"
+      ],
+      "commands": [
+        {"sct:install": []}
+      ]
+
+    }
+  }
+}

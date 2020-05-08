@@ -1,0 +1,39 @@
+{
+  "templatePath": "assets/modules/Comments/tpl/",
+  "templateExtension": "php",
+  "formTpl": "@B_FILE:Forms/edit",
+  "protectSubmit": 0,
+  "submitLimit": 0,
+  "rules": {
+    "comment": {
+      "required": "[%module.form.comment_required%]"
+    }
+  },
+  "guestRules": {
+    "name": {
+      "required":"[%module.form.name_required%]"
+    },
+    "email": {
+      "required": "[%module.form.email_required%]",
+      "email": "[%module.form.email_incorrect%]"
+    },
+    "comment": {
+      "required": "[%module.form.comment_required%]"
+    }
+  },
+  "formControls": ["published", "deleted"],
+  "emptyFormControls": {
+    "published": 0,
+    "deleted": 0
+  },
+  "errorClass": " is-invalid",
+  "requiredClass": " is-invalid",
+  "errorTpl" : "@CODE:<div class=\"invalid-feedback\">[+message+]</div>",
+  "filters": {
+    "name":["trim", "ucfirst", "removeExtraSpaces", "stripTags"],
+    "email":["trim", "email"],
+    "comment": ["trim", "compressText"]
+  },
+  "langDir": "assets/modules/Comments/lang/",
+  "lexicon": "edit"
+}

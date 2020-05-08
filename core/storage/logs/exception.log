@@ -1,0 +1,2 @@
+[2020-05-01 05-55-34] Fatal Error: Maximum execution time of 60 seconds exceeded in E:\OSPanel\domains\evo20\manager\includes\lang\english.inc.php:16  @  http://evo20/manager/  @@  exception--2020-05-01--05-55--1a2925eabd.html
+[2020-05-08 00-34-48] Fatal Error: Maximum execution time of 60 seconds exceeded in E:\OSPanel\domains\evo20\core\vendor\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOStatement.php:45  @  http://evo20/manager/  @@  exception--2020-05-08--00-34--6ff67c1fe8.html
