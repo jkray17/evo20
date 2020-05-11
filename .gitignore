@@ -3,5 +3,6 @@ core/
 manager/
 temp/
 evo.zip
-evo20.sublime-project
+#evo20.sublime-project
 evo20.sublime-workspace
+#
