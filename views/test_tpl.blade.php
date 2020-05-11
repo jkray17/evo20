@@ -1,0 +1,4 @@
+<li>
+
+{{ $data['pagetitle'] }}
+</li>
