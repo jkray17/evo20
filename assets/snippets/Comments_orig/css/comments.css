@@ -1,0 +1,156 @@
+.comment-reply-cancel, #comments .comment-update {
+    display:none;
+}
+#comments .comment-form-wrap {
+    margin-bottom:15px;
+}
+#comments .comments-count-wrap {
+    font-size:2em;
+    margin-bottom:20px;
+}
+#comments .comment {
+    margin-left:100px;
+    margin-bottom:15px;
+}
+#comments .comment .comment-wrap, .comment-preview-wrap {
+    padding:15px;
+    border:1px dotted #bbb;
+    border-radius:4px;
+    margin-top:15px;
+}
+#comments .comment.new .comment-wrap {
+    border-color: #f0ad4e;
+    border-width:2px;
+}
+#comments .comment.unpublished .comment-wrap {
+    background: #f8dd84;
+}
+#comments .comment.deleted .comment-wrap {
+    background: #f4e1df;
+}
+#comments .comment-preview-wrap {
+    background:#ccc;
+    margin:15px 0;
+}
+#comments .level0 {
+    margin-left:0;
+}
+#comments .level1 {
+    margin-left:20px;
+}
+#comments .level2 {
+    margin-left:40px;
+}
+#comments .level3 {
+    margin-left:60px;
+}
+#comments .level4 {
+    margin-left:80px;
+}
+#comments .comment .comment-head {
+    background:#eee;
+    padding:5px 10px;
+    display: flex;
+    flex-direction: row;
+}
+#comments .comment .rating {
+    margin-left:auto;
+}
+#comments .comment .userdata .username, #comments .comment .userdata .createdon  {
+    display: block;
+}
+#comments .comment .userdata .username {
+    font-weight: bold;
+}
+#comments .comment .userdata .createdon {
+    font-size:0.8em;
+}
+#comments .comment .comment-links {
+    margin:0 15px;
+}
+#comments .comment .comment-body {
+    padding:15px 0;
+}
+#comments .comment.guest .comment-head {
+    background:#f0ffff;
+}
+#comments .comment-reply-cancel {
+    display:inline-block;
+}
+#comments .comment-preview-wrap {
+    background: #ccc;
+    margin: 15px 0;
+}
+#comments .comment.editable .comment-update {
+    display:inline-block;
+}
+#comments .comment-moderation {
+    margin-bottom:15px;
+}
+#comments .comment-moderation .comment-undelete,
+#comments .comment.published .comment-moderation .comment-publish,
+#comments .comment.unpublished .comment-moderation .comment-unpublish,
+#comments .comment.deleted .comment-moderation .comment-delete{
+    display:none;
+}
+#comments .comment.deleted .comment-moderation .comment-undelete{
+    display:inline-block;
+}
+#comments .comment .rating .like, #comments .comment .rating .dislike {
+    display: inline-block;
+    width:20px;
+    height:20px;
+    font-size:20px;
+    line-height:20px;
+    color:#fff;
+    text-align:center;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+#comments .comment .rating .like:hover, #comments .comment .rating .dislike:hover {
+    text-decoration: none;
+    opacity:.6;
+}
+#comments .comment .rating .like {
+    background: green;
+}
+#comments .comment .rating .dislike {
+    background: red;
+}
+#comments .comment.rated .rating .like, #comments .comment.rated .rating .dislike {
+    display:none;
+}
+#comments .comment .rating .rating-count {
+    margin:0 10px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#comments .comment.positive .rating .rating-count {
+    color:green;
+}
+#comments .comment.negative .rating .rating-count {
+    color:red;
+}
+.recent-comments {
+    padding:15px;
+    margin-bottom:15px;
+}
+.recent-comment {
+    margin-bottom:15px;
+}
+.recent-comment .username {
+    font-weight: bold;
+}
+.comments-form-wrap form {
+    position:relative;
+}
+.comments-form-wrap form.disabled:before {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:rgba(255,255,255,.4);
+}
