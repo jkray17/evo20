@@ -19,7 +19,7 @@
           <li class="active"><a href="sushi-ryazan.html">Главная</a></li>
           <li><a href="">О нас</a></li>
           <li><a href="">Доставка</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="">КонтактЫ</a></li>
         </ul>
         <div class="cartblock">
           <div class="cart-info">
