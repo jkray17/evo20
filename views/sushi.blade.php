@@ -9,6 +9,9 @@
 
  <div class="main-content">
   @section('content')
+  <div class="">
+    🔴 UPD упрощенная формула (медиа запрос не нужен):
+    font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)));</div>
 
     @include('sushi.catalogue')
 
